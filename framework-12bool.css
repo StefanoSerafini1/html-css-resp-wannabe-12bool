@@ -198,7 +198,7 @@
 }
 
 
-/*  classi offset */
+/*  classi offset per versione screen da smartphoone < 768px*/
 
 .offset-xs-1 {
   margin-left: calc(100% / 12);
