@@ -7,29 +7,18 @@
   color: green;
   margin:0 auto;
 }
-/* .container {
-    width: 1170px;
-    max-width: 100%;
-    margin: 0 auto;
-    margin-bottom: 16px;
-} */
-/* .row>.left,
-.row>.right {
-  width: 50%;
-  float: left;
+h1 {
+  margin-bottom: 20px;
 }
-.row {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
+img {
+  height: 200px;
 }
-.row img {
-  /* per centrare orizzontalmente */
-  /* display: block;
-  margin-right: auto;
-  margin-left: auto;
-} */
+
+.clear {
+  clear: both;
+}
+
+
 .container {
   width: 992px;
   margin-left: auto;
@@ -40,7 +29,9 @@
 
 /* BLOCCO LEZIONI */
 .container>.left,
-.container>.right {
+.container>.right,
+.container>.central
+ {
   width: 50%;
   float: left;
   margin-top: 20px;
@@ -54,10 +45,18 @@
 }
 
 
-img {
-  height: 200px;
+
+.tripla>.left,
+.tripla>.central,
+.tripla>.right {
+  float: left;
+  width: 33%;
+  text-align: center;
 }
 
-.clear {
-  clear: both;
+.tripla {
+  text-align: center;
+}
+.container.grey {
+  background-color: #f9f9f9;
 }
