@@ -1,12 +1,4 @@
 
-.box {
-  padding: 10px;
-  border-radius: 5px;
-  text-align: center;
-  background-color: black;
-  color: green;
-  margin:0 auto;
-}
 h1 {
   margin-bottom: 20px;
 }
@@ -18,21 +10,12 @@ img {
   clear: both;
 }
 
-
-/* .container {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  text-align: center;
-} */
-
 /* BLOCCO LEZIONI */
 .container>.left,
 .container>.right,
 .container>.central
  {
-  width: 50%;
+  text-align: center;
   float: left;
   margin-top: 20px;
 }
@@ -45,12 +28,10 @@ img {
 }
 
 
-
 .tripla>.left,
 .tripla>.central,
 .tripla>.right {
   float: left;
-  width: 33%;
   text-align: center;
 }
 
@@ -68,7 +49,6 @@ img {
 .verticale>.alto,
 .verticale>.centro,
 .verticale>.basso {
-  width: 100%;
   margin-top: 80px;
 }
 
